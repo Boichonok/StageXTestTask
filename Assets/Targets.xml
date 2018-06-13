@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TargetsCOllection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Targets>
+    <Target iconTypePth="cube">
+      <typeofTarget>0</typeofTarget>
+      <color>0</color>
+      <color>1</color>
+      <color>0</color>
+      <pointValue>50</pointValue>
+    </Target>
+    <Target iconTypePth="capsule">
+      <typeofTarget>2</typeofTarget>
+      <color>0</color>
+      <color>0</color>
+      <color>1</color>
+      <pointValue>30</pointValue>
+    </Target>
+    <Target iconTypePth="sphere">
+      <typeofTarget>1</typeofTarget>
+      <color>1</color>
+      <color>0</color>
+      <color>0</color>
+      <pointValue>70</pointValue>
+    </Target>
+  </Targets>
+</TargetsCOllection>
