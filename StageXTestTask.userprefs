@@ -1,15 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ViewMode/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ViewMode/PlayerControllerOld.cs">
     <Files>
-      <File FileName="Assets/View/CubeTarget.cs" Line="68" Column="4" />
-      <File FileName="Assets/View/CapsuleTarget.cs" Line="65" Column="3" />
-      <File FileName="Assets/View/SphereTarget.cs" Line="66" Column="4" />
-      <File FileName="Assets/View/TargetView.cs" Line="11" Column="37" />
-      <File FileName="Assets/ViewMode/PlayerController.cs" Line="56" Column="99" />
-      <File FileName="Assets/ViewMode/ViewModelDelegate.cs" Line="12" Column="16" />
-      <File FileName="Assets/View/Item.cs" Line="70" Column="46" />
-      <File FileName="Assets/View/TargetFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/View/TargetView.cs" Line="10" Column="39" />
+      <File FileName="Assets/View/CapsuleTarget.cs" Line="38" Column="26" />
+      <File FileName="Assets/View/CubeTarget.cs" Line="36" Column="26" />
+      <File FileName="Assets/View/SphereTarget.cs" Line="39" Column="26" />
+      <File FileName="Assets/View/TargetFactory.cs" Line="14" Column="26" />
+      <File FileName="Assets/View/Item.cs" Line="73" Column="141" />
+      <File FileName="Assets/ViewMode/PlayerControllerOld.cs" Line="32" Column="3" />
+      <File FileName="Assets/ViewMode/CreatItemsForListViewOld.cs" Line="6" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

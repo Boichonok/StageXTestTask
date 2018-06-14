@@ -17,6 +17,7 @@ public class PlayerControllerOld : MonoBehaviour
 	public void Start ()
 	{
 		scoreText = GameObject.FindGameObjectWithTag ("scoreTextUI").GetComponent<Text> ();
+		playerScores = PlayerPrefs.GetInt ("Scores");
 	}
 	public void Update(){
 		if (Input.GetButtonDown ("Fire1")) {
@@ -44,6 +45,10 @@ public class PlayerControllerOld : MonoBehaviour
 		ViewModelDelegate.shootingDelegate -= shoot;
 		//ViewModelDelegate.shootingDelegate -= shootAudio;
 
+	}
+
+	void OnApplicationQuit(){
+		PlayerPrefs.SetInt ("Scores",playerScores);
 	}
 
 	void shootAudio(){
